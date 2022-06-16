@@ -1,3 +1,8 @@
+:root {
+    --clr-primary-1: #708090; 
+}
+
+
 *,
 ::after, 
 ::before {
@@ -7,7 +12,11 @@
 }
 
 body {
-    height: 1000px;
+    height: 1550px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .line {
@@ -39,10 +48,6 @@ body {
 main {
     height: 70%;
     margin: 5rem 8rem;
-}
-
-.info-container .header {
-    
 }
 
 .info-container {
@@ -79,4 +84,111 @@ main {
     width: 60%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+aside {
+    position: relative;
+}
+
+.personal-info-container {
+    position: absolute;
+    left: 75%;
+    top: -1117px;
+}
+ 
+.mail-icon {
+    color: rgb(213, 87, 87);
+}
+
+.mail {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--clr-primary-1);
+}
+
+.contacts-list li {
+    margin-top: 0.5rem;
+}
+
+.phone {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--clr-primary-1);
+}
+
+.phone-icon {
+    color: rgb(213, 87, 87);
+
+}
+
+.telegram {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--clr-primary-1);
+}
+
+.telegram-icon {
+    color: rgb(213, 87, 87);
+}
+
+.aside-header {
+    text-transform: capitalize;
+    color: var(--clr-primary-1);
+}
+
+.personal {
+    margin-bottom: 2.5rem;
+}
+
+.socials {
+    margin-top: 0;
+}
+
+.list {
+    display: grid;
+    justify-items: left;
+    margin-top: 2rem;
+}
+
+.list li {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list li span {
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem; 
+    border-radius: 1rem;
+    background-color: var(--clr-primary-1);
+}
+
+.list :last-child {
+    margin-bottom: 0;
+}
+
+.tools {
+    width: 300px;
+    height: 200px;
+    margin-top: 1rem;
+}
+
+.tools p {
+    width: 80%;
+    height: 80%;
+    padding: 1.8rem 1rem 1rem 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: var(--clr-primary-1);
+    border: solid rgb(188, 182, 182) 1px;
+    border-radius: 6%;
+}
+
+
+
+
+
 
